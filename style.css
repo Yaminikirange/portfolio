@@ -1,0 +1,395 @@
+
+
+*{
+	padding:0;
+	margin:0;
+}
+html,body{
+	font-family: "Poppins", sans-serif;
+}
+.navbar-brand{
+	margin-left: 0px;
+	padding-left: 30px;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	letter-spacing: 3px;
+	font-weight: 500;
+}
+nav{
+	position: fixed;
+	font-family: 'Ubuntu', sans-serif;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	background: #404040;
+	transition: all 0.3s ease;
+
+}
+nav ul{
+	text-align: left;
+	margin-left: auto;
+}
+
+
+
+nav ul li{
+	width: 120px;
+	height: 50px;
+	line-height: 40px;
+	float: left;
+	list-style: none;
+	margin-bottom: 5px;
+	text-align: center;
+
+}
+nav li a{
+	width: 120px;
+	height: 50px;
+	text-decoration: none;
+		transition: 0.5s all ease;
+		color: orange;
+	font-size: 18px;
+	font-family: cursive;
+	display: block;
+
+}
+nav ul li a:hover{
+	color: white;
+	box-shadow: 5px 5px 10px black;
+	font-size: 20PX;
+	border-radius: 10px;
+	padding-top: 0px;
+	background-color: black;
+}
+
+#home {
+	width: 100%;
+	height: 800px;
+	margin-top: 0px;
+}
+.bg-img{
+			 width: 100%;
+            height: 100vh;
+            background: url(img/bg1.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+            filter: brightness(35%);
+}
+
+#home .section-title{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	float: left;
+	transform: translate(-50%,-50%);
+}
+#home .section-title h2{
+	color: white;
+    font-family: 'Rouge Script', cursive;
+    font-size: 100px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    text-shadow: 2px 2px 5px black;
+}
+#home .section-title h3{
+	color: white;
+	text-align: center;
+	font-family: cursive;
+	font-size: 35px;
+	font-weight: 200;
+	margin-bottom: 30px;
+	text-shadow: 2px 2px 5px black;
+
+}
+.button{
+	color: white;
+	box-shadow: 5px 5px 5px black;
+	background:black;
+	border:1px solid black;
+	border-radius: 15px;
+	width: 120px;
+	height: 50px;
+	font-size: 18px;
+	padding-left: 10px 5px 10px 5px;
+	transition: 0.2s all ease;
+}
+.button:hover{
+	color:orange;
+	background: linear-gradient(90deg, #4458dc 0%, #e101f5 100%);
+	border: linear-gradient(90deg, #4458dc 0%, #e101f5 100%);	
+	padding: 0;
+	font-size: 20px;
+}
+
+
+/*---------------------------About section------------------*/
+#About{
+	margin-top: 100px;
+}
+#About .button{
+	width: 150px;
+	height: 50px;
+	margin-left: 5px;
+}
+#About .about-box{
+		box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.12);
+		padding: 10px 0;
+}
+#About h2{
+	font-family:Arial black;
+	font-size: 40px;
+	font-weight: 700;
+	padding: 15px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+#About p{
+	font-size: 18px;
+	font-family: calibri;
+	font-weight: 200px;
+
+}
+#About img{
+	width: 500px;
+	height: 300px;
+	padding: 10px 5px 10px 5px;
+  	transition: all ease-in-out 0.4s;
+}
+#About img:hover{
+  transform: scale(1.1);
+}
+
+#About h3{
+	font-weight: bold;
+	font-family: 'Rouge Script', cursive;
+	font-size: 38px;
+	margin-top: 15px;
+	padding: 10px;
+}
+#About .about-text ul li{
+	list-style: none;
+	padding: 5px;
+}
+#About .about-text span{
+	font-weight: 300px;
+}
+#About p{
+	font-weight: 300px;
+	font-family: arial;
+	font-size: 16px;
+	margin-bottom: 15px;
+	letter-spacing: 1px;
+	padding: 10px;
+	text-align: justify;
+}
+/*--------------------------------------------Skill section-------------------------------*/
+#Skill{
+	width: 100%;
+	height: 100%;
+	margin-top: 150px;
+
+}
+
+#Skill .section-title h2{
+	text-align: center;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-family: Arial black;
+	font-weight: 300;
+	padding: 30px;
+}
+#Skill .section-title .img{
+	margin-top: 30px;
+}
+#Skill .progress-title{
+	margin-top: 25px;
+
+}
+#Skill .skill-progress{
+	height: 400px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+  margin-top: 50px;
+
+}
+#Skill .progress-title h3{
+	font-size: 16px;
+	font-weight: bold;
+	font-family: calibri;
+}
+#Skill .progress .progress-bar{
+	font-size: 15px;
+	background-color: #0563bb;
+	-webkit-animation:myanni 3s linear;
+	height: 12px;
+	border-radius: 5px;
+}
+
+@-webkit-keyframes myanni{
+	0%{width: 0;}
+	
+	}
+
+#Skill .progress{
+	margin-top: 15px;
+	background-color: #e6e6e6;
+	height: 12px;
+
+}
+#Skill .progress-title span{
+	
+	color: black;
+	font-weight: bold;
+	font-size: 16px;
+	float: right;
+	margin-right: 30px;
+}
+
+/*------------------------------Project section-------------------------*/
+
+#Project{
+	width: 100%;
+	height: 100%;
+	margin-top:200px;
+}
+#Project .section-title h2{
+	text-align: center;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-family: Arial black;
+	font-weight: 300;
+	padding: 30px;
+}
+
+#Project .section-title p{
+	text-align: center;
+	font-size: 16px;
+	font-family: Arial black;
+	font-weight: 300;
+	padding-bottom: 30px;
+
+}
+#Project #card{
+	padding: 80px;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.12);
+}
+#Project #card .card-title{
+	font-size: 18px;
+	font-weight: bold;
+	font-family: arial black;
+
+}
+
+/*----------------------------------------Resume Section-----------------------------*/
+
+#Resume{
+	width: 100%;
+	height: 100%;
+	margin-top:200px;
+}
+#Resume .section-title h2{
+	text-align: center;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-family: Arial black;
+	font-weight: 300;
+	padding: 30px;
+}
+
+#Resume .section-title p{
+	text-align: center;
+	font-size: 16px;
+	font-family: Arial;
+	font-weight: 50;
+	padding-bottom: 35px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
+
+
+}
+#Resume #resume-box{
+		box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.12);
+		padding: 15px 10px 10px 10px;
+		margin-top: 20px;
+
+}
+#Resume .resume-title{
+	font-family: arial black;
+	font-size: 25px;
+	font-weight: 700;
+	color: #45505b;;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#Resume .resume-item{
+	padding: 0 0 20px 20px;
+	border-left: 2px solid #0563bb;
+
+}
+#Resume .resume-item::before{
+	content: "";
+	position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: 8px;
+    top: 10;
+    background: #fff;
+    border: 2px solid #0563bb;
+
+}
+#Resume .resume-item h4{
+	font-weight: 700;
+	font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    color: #0563bb;
+    margin-bottom: 10px;
+}
+#Resume .resume-item ul{
+	padding: 15px 15px;
+
+}
+#Resume .resume-item ul li{
+	list-style: none;
+	padding: 10px 10px;
+	font-size: 16px;
+
+}
+
+#Resume .resume-item h5{
+	padding: 5px 15px;
+	font-weight: bold;
+	margin-top: 10px;
+	font-size: 16px;
+	background-color:  #f7f8f9;
+	display: inline-block;
+
+	
+}
+#Contact .section-title h2{
+text-align: center;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-family: Arial black;
+	font-weight: 300;
+	padding: 30px;
+
+}
+#Contact{
+	width: 100%;
+	height: 100%;
+	margin-top:200px;
+}
+
+.preloader{
+	width: 40px;
+	height: 40px;
+	margin-left: 90%;
+	margin-bottom: 15px;
+}

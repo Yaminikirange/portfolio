@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign In Sign Up</title>
+	<style>
+		*{
+			padding:0;
+			margin: 0;
+		}
+		.wrapper{
+			width: 100%;
+			height: 800px;
+			background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Pic1.jpg);
+			background-size: cover;
+			background-position: center;
+			position: absolute;
+		}
+		.form-box{
+			width: 380px;
+			height: 450px;
+			position: relative;
+			margin: 20% auto;
+			background-color: white;
+			padding: 5px;
+			overflow: hidden;
+			border-radius: 20px;
+
+
+		}
+		.button-box{
+			width: 220px;
+			padding: 5px;
+			margin: 35px auto;
+			position: relative;
+			box-shadow: 5px 5px 5px black;
+			border-radius: 20px;
+		}
+		.button{
+			padding: 10px 30px;
+			background: transparent;
+			border-radius: 20px;
+			border:0;
+			outline: none;
+			cursor: pointer;
+
+			position: relative;
+		}
+		#btn{
+			position: absolute;
+			width: 120px;
+			height: 100%;
+			left: 0;
+			top: 0;
+			background: linear-gradient(to right,#fc0320,#0f03fc);
+			border-radius: 20px;
+			transition: 0.4s;
+
+		}
+		.input-group{
+			position: absolute;
+			width: 280px;
+			top: 180px;
+						transition: 0.4s;
+
+		}
+		.input-field{
+			padding: 10px 0;
+			width: 100%;
+			margin: 5px 0;
+			border-right: 0;
+			border-left: 0;
+			border-top: 0;
+			border-bottom: 1px solid gray;
+			outline: none;
+			background-color: transparent;
+
+		}
+		.submit{
+			width: 85%;
+			padding: 10px 30px;
+			display: block;
+			margin: auto;
+			background: linear-gradient(to right,#fc0320,#0f03fc);
+			outline: none;
+			border-radius: 20px;
+			cursor: pointer;
+		}
+		.checkbox{
+			margin: 30px 10px;
+		}
+		span{
+			color: gray;
+			font-weight: 200px;
+			font-size: 12px;
+			bottom: 68px;
+			position: absolute;
+		}
+		#login{
+			left: 50px;
+		}
+
+		#signup{
+			left: 450px;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="form-box">
+			<div class="button-box">
+				<div id="btn"></div>
+				<button type="button" class="button"  onclick="login()">Log In</button>
+				<button type="button" class="button"  onclick="signup()">Sign Up</button>
+
+			</div>
+			<form class="input-group" id="login">
+				<input type="text" class="input-field" placeholder="User Id" required>
+				<input type="text" class="input-field" placeholder="Password" required>
+				<input type="checkbox" class="checkbox" required><span>Remember Password</span>
+				<button type="submit" class="submit">Login</button>
+
+			</form>
+			<form class="input-group" id="signup">
+				<input type="text" class="input-field" placeholder="User Id" required>
+				<input type="text" class="input-field" placeholder="Email Id" required>
+				<input type="text" class="input-field" placeholder="Enter Password" required>
+
+				<input type="checkbox" class="checkbox" required><span>I agree to the terms and conditions</span>
+				<button type="button" class="submit">Sign Up</button>
+
+			</form>
+		</div>
+	</div>
+	<script>
+		var a=document.getElementById("login");
+		var b=document.getElementById("signup");
+		var c=document.getElementById("btn");
+
+		function signup(){
+			a.style.left="-400px";
+			b.style.left="50px";
+			c.style.left="110px";
+
+		}
+		function login(){
+			a.style.left="50px";
+			b.style.left="450px";
+			c.style.left="0px";
+
+		}
+
+	</script>
+
+</body>
+</html>

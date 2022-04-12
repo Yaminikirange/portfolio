@@ -1,0 +1,415 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		
+	    <title>Portfolio</title>
+	   <link rel="stylesheet" href="bootstrap.css">
+	   <link rel="stylesheet" type="text/css" href="style.css">
+
+	   <script src="jquery.js"></script>
+	   <script src="popper.js"></script> 
+	   <script src="bootstrap.js"></script>
+
+	    <link rel="stylesheet" href="icons.css">
+	    <link href="http://fonts.googleapis.com/css?family=Rouge+Script" rel="stylesheet" type="text/css">
+	    <link href="http://fonts.googleapis.com/css?family=Oswald:300,400" rel="stylesheet">
+	    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+   <script>
+   	$(document).ready(function(){
+        $(".navbar-toggler").click(function() {
+            $("#navbarSupportedContent").css({
+                "background": "gray",
+                "text-align": "center",
+                "box-shadow": "10px 10px 10px black",
+                "border-radius":"50px"
+            });
+        });
+    });
+    </script>
+
+	</head>
+	<body >
+		<header>
+
+	    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top ">
+	  <div class="container-fluid">
+
+	    <a class="navbar-brand" href="#">Yamini</a>
+	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+	                <span class="navbar-toggler-icon"></span>
+
+	    </button>
+
+	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	      <ul class="navbar-nav ml-auto">
+	        <li class="nav-item mx-auto">
+	          <a class="nav-link active" href="#home">Home</a>
+	        </li>
+	        <li class="nav-item mx-auto">
+	          <a class="nav-link  active" href="#About">About</a>
+	        </li>
+	        <li class="nav-item mx-auto">
+	          <a class="nav-link  active" href="#Skill">Skill</a>
+	        </li>
+	        <li class="nav-item mx-auto">
+	          <a class="nav-link  active" href="#Project">Project</a>
+	        </li>
+	        <li class="nav-item mx-auto">
+	          <a class="nav-link  active " href="#Resume">Resume</a>
+	        </li>
+	        <li class="nav-item mx-auto">
+	          <a class="nav-link  active " href="#Contact">Contact</a>
+	        </li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+	</header>
+
+
+	<section class="home" id="home">
+		<div class="container-fluid">
+
+			<div class="row">
+	            <div class="bg-img col-12">
+	                </div>
+			<div class="section-title col-12 col-sm-12 col-md-12 col-lg-12">
+				<h2 class="text-center">Front End Developer</h2>
+				<h3>Yamini Kirange</h3>
+				<div class="text-center mt-5">
+				<a href="#Resume"><button type="button" class="btn button">Read CV</button></a>
+							<a href="img/Yamini.pdf"><button type="button" class="btn button ml-2">Get CV</button></a>
+
+				</div>
+			</div>
+			</div>
+		</div>
+
+
+	</section>
+	<!-----------------------------------About Section-------------------->
+	<section class="About" id="About">
+		<div class="container mr-auto">
+			<div class="row ">
+				<div class="section-title col-12 col-sm-12 col-md-12 col-lg-12">
+					<h2 class="text-center">About Me</h2>
+				</div>
+				<div class="col-12 col-sm-12 col-md-12 col-lg-12">
+					<p class="text-center">I am Yamini Kirange MBA Post Graduated From JALGAON. Specialization In Human Resource.I completed my web designing course from CNC Web World Mumbai.</p>
+				</div>
+			</div>
+			<div class="row about-box">
+				<div class="about-img col-lg-6">
+					<img src="img/body-banner.png" class="image-fluid" width="500px" height="300">
+				</div>
+				<div class="about-text  col-lg-6">
+					<h3>Front End Developer</h3>
+					<div class="row pl-4">
+						<ul>
+							<li>
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar2-check-fill" viewBox="0 0 16 16">
+	  							<path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zm9.954 3H2.545c-.3 0-.545.224-.545.5v1c0 .276.244.5.545.5h10.91c.3 0 .545-.224.545-.5v-1c0-.276-.244-.5-.546-.5zm-2.6 5.854a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+								</svg>
+	                        	<span> :29 Jun 1996</span>
+	                    	</li>
+	                    	<li>
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-check-fill" viewBox="0 0 16 16">
+								<path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 4.697v4.974A4.491 4.491 0 0 0 12.5 8a4.49 4.49 0 0 0-1.965.45l-.338-.207L16 4.697Z"/>
+								<path d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686Z"/>
+								</svg
+	                        	<span> :kirangeyamini1996@gmail.com</span>
+	                    	</li>
+	                    	<li>
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+								<path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+								</svg>
+	                        	<span> :+91 8975731545</span>
+	                    	</li>
+	                    	<li>
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+	  							<path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+								</svg>
+	                        	<span> :Kingaon</span>
+	                    	</li>
+	                    	<li>
+	                    		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+								<path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z"/>
+								<path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z"/>
+								</svg>
+								<span>: MBA(HR)</span>
+		                    </li>
+						</ul>
+					</div>
+					<p>My name is Yamini Kirange...<br>I am basically from kingaon.I have completed my BCA with CGPA 5.07 in 2017 from jalgaon and also completed my MBA in HR with CGPA 8.06 in 2019 from jalgaon .I have completed my 12th with 54% & 10th with 76% from State Board of Maharashtra.I am currently pursuing certified Front End Development course from CNC Web World, Navi-Mumbai.</p>
+					<a href="img/Yamini.pdf">
+	                    <button type="button" class="btn button "> Download CV</button>
+	                </a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-----------------------------------end About Section-------------------->
+
+	<!-----------------------------------Skill Section-------------------->
+
+	<section class="Skill" id="Skill"> 
+	<div class="container">
+		<div class="section-title">
+			<h2 class="mt-5">Skills</h2>
+			<marquee class="pt4" behavior="scroll" vspace="100" hspace="100" scrollamount="10">
+					<img src="./img/html.png" width="80" height="80" class="img">
+	                <img src="img/css.png" width="80" height="80" class="img" class="img">
+	            	<img src="img/js.png" width="80" height="80" class="img">
+	                <img src="img/bootstrap.png" width="100" height="80" class="img">
+	                <img src="img/jq.png" width="80" height="80" class="img">
+			</marquee>
+		</div>
+		<div class="row skill-progress">
+			<div class="col-lg-10 mx-auto">
+				<div class="progress-title">
+					<h3>HTML <span>100%</span></h3>
+					
+					<div class="progress">
+						<div class="progress-bar" style="width: 100%;">
+							
+							
+						</div>
+
+					</div>
+				</div>
+				<div class="progress-title">
+					<h3>CSS<span>85%</span></h3>
+
+					
+					<div class="progress">
+						<div class="progress-bar" style="width: 85%;">
+							
+
+						</div>
+
+					</div>
+				</div>
+				<div class="progress-title">
+					<h3>JAVA SCRIPT<span>80%</span></h3>
+					<div class="progress">
+						<div class="progress-bar" style="width: 80%;" >
+							
+
+						</div>
+
+					</div>
+
+				</div>
+				<div class="progress-title">
+					<h3>JQUERY<span>80%</span></h3>
+
+					<div class="progress">
+						<div class="progress-bar" style="width: 80%;" >
+							
+						</div>
+
+					</div>
+
+				</div>
+				<div class="progress-title">
+					<h3>BOOTSTRAP<span>80%</span></h3>
+					<div class="progress">
+						<div class="progress-bar" style="width: 80%;">
+						</div>
+					</div>
+
+				</div>
+
+
+
+			</div>
+		</div>
+
+
+	</div>
+
+	</section>
+	<!-----------------------------------End Skill Section-------------------->
+
+	<!-----------------------------------Project Section-------------------->
+
+	<section class="Project" id="Project">
+		<div class="container">
+			<div class="section-title">
+				<h2>My Project</h2>
+				<p>Project created using HTML,CSS and JAVASCRIPT</p>
+			</div>
+			<div class="row" id="card">
+				<div class="col col-md-4 col-sm-6 col-6 pt-4">
+	                        <a href="Project/Claculator.html">
+	                            <div class="card " style="font-weight:bold;color: black">
+	                                <img src="img/calsi.png" class="card-img-top pt-4" alt="...">
+	                                <div class="card-img-overlay">
+	                                    <h5 class="card-title">Calculator</h5>
+	                                </div>
+	                            </div>
+	                        </a>
+	                    </div>
+	                    <div class="col col-md-4 col-sm-6 col-6 pt-4">
+	                        <a href="Project/Digitalclock.html">
+	                            <div class="card text-white " style="background-color:black ";>
+	                                <img src="img/digital.png" class="card-img-top pt-4" alt="...">
+	                                <div class="card-img-overlay">
+	                                    <h5 class="card-title">Digital Clock</h5>
+	                                </div>
+	                            </div>
+	                        </a>
+	                    </div>
+	                    <div class="col col-md-4 col-sm-6 col-6 pt-4">
+	                        <a href="Project/signup.html">
+	                            <div class="card text-white h-100 " style="background-color:black ";>
+	                                <img src="img/login.png" class="card-img-top pt-0.5" alt="...">
+	                                <div class="card-img-overlay">
+	                                    <h5 class="card-title">Login Page</h5>
+	                                </div>
+	                            </div>
+	                        </a>
+	                    </div>
+	                    <div class="col col-md-4 col-sm-6 col-6 pt-4">
+	                        <a href="portfolio.html">
+	                            <div class="card text-white h-100" style="background-color:black ";>
+	                                <img src="img/portfolio.jpg" class="card-img-top pt-4 " alt="...">
+	                                <div class="card-img-overlay">
+	                                    <h5 class="card-title">Portfolio</h5>
+	                                </div>
+	                            </div>
+	                        </a>
+	                    </div>
+	                    <div class="col col-md-4 col-sm-6 col-6 pt-4">
+	                        <a href="https://yaminikirange.github.io/shantajhotel/index.html">
+	                            <div class="card text-white h-100" style="background-color:black ";>
+	                                <img src="img/hotelshantaj.jpg" class="card-img-top pt-4" alt="...">
+	                                <div class="card-img-overlay">
+	                                    <h5 class="card-title">Website</h5>
+	                                </div>
+	                            </div>
+	                        </a>
+	                    </div>
+		</div>
+	</section>
+	<!-----------------------------------End Project Section-------------------->
+
+
+
+	<!-----------------------------------Resume Section-------------------->
+
+	<section class="Resume" id="Resume">
+		<div class="container">
+			<div class="section-title">
+				<h2>Resume</h2>
+				<p>“I am seeking opportunities to join a company that can help me in enhancing my skills, strengthening my knowledge and realising my potential. I am willing to explore a wide variety of opportunities that can help me gain perspective.”</p>
+			</div>
+			<div class="row" id="resume-box">
+				<div class="col-lg-6">
+					<h3 class="resume-title">Myself</h3>
+				<div class="resume-item">
+					<h4>Yamini Kirange</h4>
+					<p>Passionate as a front-end web developer with 4 months of experience using JavaScript, HTML5, and CSS to
+	                   build all aspects of the user experience and user interface for client-facing landing pages. </em></p>
+	                   <ul>
+	                         <li>Kingaon, Tal-Yawal,Dist-Jalagaon. </li>
+	                         <li>+91 8975731545</li>
+	                         <li>kirangeyamini1996@gmail.com</li>
+	                            </ul>
+				</div>
+				<h3 class="resume-title">Education</h3>
+				<div class="resume-item">
+					<h4>Master of Business Administration,Human Resource</h4>
+					<h5>2018-2019</h5>
+					<p>Savitribai Fule North Maharashtra University<br><i>CGPA:8.06</i></p>
+					<p>Dr.Annasaheb G.D Bendale Mahila Maha Vidyalaya,Jalgaon.</p>
+				</div>
+				<div class="resume-item">
+					<h4>Bachelors of Computer Applications</h4>
+					<h5>2016-2017</h5>
+					<p>Savitribai Fule North Maharashtra University<br><i>CGPA:5.07</i></p>
+					<p>G.H Raisoni Instutute Of Business Management,Jalgaon.</p>
+				</div>
+				<div class="resume-item">
+					<h4>HSC</h4>
+					<h5>2013-2014</h5>
+					<p>State Board of Maharashtra<br><i>Prcentage:54.92</i></p>
+					<p>Dr.Annasaheb G.D Bendale Mahila Maha Vidyalaya,Jalgaon.</p>
+				</div>
+				<div class="resume-item">
+					<h4>SSc</h4>
+					<h5>2011-2012</h5>
+					<p>State Board of Maharashtra<br><i>Prcentage:76.20</i></p>
+					<p>Dr.Annasaheb G.D Bendale Mahila Maha Vidyalaya,Jalgaon.</p>
+				</div>
+			</div>
+			<div class="col-lg-6">
+					<h3 class="resume-title"> Work Experience In Web Developement</h3>
+				<div class="resume-item">
+					<h4>Fresher</h4>
+				</div>
+				<h3 class="resume-title">Courses</h3>
+				<div class="resume-item">
+					<h4>Front End Development</h4>
+					<h5>2022-present</h5>
+					<p><em>CNC Web World Nerul,Navi Mumbai </em></p>
+	                <p>Front-end: JavaScript, jQuery, HTML5, CSS3, Bootstrap and React JS</p>
+
+				</div>
+				<h3 class="resume-title">Certificate</h3>
+				<div class="resume-item">
+					<h4>Front End Developer</h4>
+					<h5>2022</h5>
+					<p><em>CNC Web World Nerul,Navi Mumbai </em></p>
+	                <p>Front-end: JavaScript, jQuery, HTML5, CSS3, Bootstrap and React JS</p>
+
+				</div>
+		</div>
+	</div>
+	</section>
+	<!-----------------------------------Contact Section-------------------->
+
+	 <footer class="page-footer" id="Contact">
+	        <div class="container section-title">
+	            <h2> contact me</h2>
+	            <ul class="list-unstyled list-inline text-center">
+	                <li class="list-inline-item">
+	                    <a href="https://www.facebook.com/yamini.kirange.3/">
+	                        <div class="icons8-facebook"></div>
+	                    </a>
+	                </li>
+	                <li class="list-inline-item">
+	                    <a href="https://t.me/yaminikirange">
+	                        <div class="icons8-telegram-app"></div>
+	                    </a>
+	                </li>
+	                <li class="list-inline-item">
+	                    <a href="https://www.linkedin.com/in/yamini-kirange-451a43169/">
+							<div class="icons8-linkedin"></div>                    </a>
+	                </li>
+	                <li class="list-inline-item">
+	                    <a href="https://wa.me/+918975731545">
+	                        <div class="icons8-whatsapp"></div>
+	                    </a>
+	                </li>
+	                <li class="list-inline-item">
+	                    <a href="mailto:kirangeyamini1996@gmail.com">
+	                        <div class="icons8-gmail"></div>
+	                    </a>
+	                </li>
+	            </ul>
+	        </div>
+	        <div class="footer-copyright text-center py-3">© 2022 Copyright:
+	            <a href="mailto:shivrajchavan1902@gmail.com"> kirangeyamini1996@gmail.com</a>
+	        </div>
+	    </footer>
+
+	    <div class="preloader fixed-bottom d-flex">
+	    	<a href="#" class="back-to-top d-flex justify-content-end active">
+	    		<svg  xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+				<path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+				</svg></a></div>
+
+	</body>
+	</html>

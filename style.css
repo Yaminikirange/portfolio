@@ -89,10 +89,11 @@ nav ul li a:hover{
 }
 #home .section-title h2{
 	color: white;
-    font-family: 'Rouge Script', cursive;
-    font-size: 100px;
+    font-family: arial black;
+    font-size: 60px;
     font-weight: 500;
     margin-bottom: 25px;
+    text-transform: uppercase;
     text-shadow: 2px 2px 5px black;
 }
 #home .section-title h3{

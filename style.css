@@ -16,6 +16,9 @@ html,body{
 	letter-spacing: 3px;
 	font-weight: 500;
 }
+.scrolled{
+	background-color: black !important;
+}
 nav{
 	position: fixed;
 	font-family: 'Ubuntu', sans-serif;

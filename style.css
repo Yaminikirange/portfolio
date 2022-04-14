@@ -130,6 +130,7 @@ nav ul li a:hover{
 /*---------------------------About section------------------*/
 #About{
 	margin-top: 100px;
+	width: 100%;
 }
 #About .button{
 	width: 150px;

@@ -89,19 +89,25 @@ nav ul li a:hover{
 }
 #home .section-title h2{
 	color: white;
-    font-family: arial black;
+    font-family:myfont;
     font-size: 40px;
     font-weight: 500;
     margin-bottom: 25px;
     text-transform: uppercase;
     text-shadow: 2px 2px 5px black;
 }
+@font-face{
+		font-family:myfont;
+		src:url(BOD_I.ttf);
+	}
+
+
 #home .section-title h3{
 	color: white;
 	text-align: center;
-	font-family: cursive;
+	font-family:calibri ;
 	font-size: 35px;
-	font-weight: 200;
+	font-weight: 50;
 	margin-bottom: 30px;
 	text-shadow: 2px 2px 5px black;
 

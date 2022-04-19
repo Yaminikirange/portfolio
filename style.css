@@ -101,7 +101,7 @@ nav ul li a:hover{
 }
 @font-face{
 		font-family:myfont;
-		src:url(ARLRDBD.ttf);
+		src:url(BOD_I.ttf);
 	}
 	@font-face{
 		font-family:myfont1;
@@ -142,7 +142,7 @@ nav ul li a:hover{
 
 /*---------------------------About section------------------*/
 #About{
-	margin-top: 5px;
+	margin-top: 100px;
 	width: 100%;
 }
 #About .button{

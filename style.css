@@ -93,7 +93,7 @@ nav ul li a:hover{
 #home .section-title h2{
 	color: white;
     font-family:myfont;
-    font-size: 75px;
+    font-size: 70px;
     font-weight: 700;
     margin-bottom: 25px;
     text-transform: uppercase;
@@ -142,7 +142,7 @@ nav ul li a:hover{
 
 /*---------------------------About section------------------*/
 #About{
-	margin-top: 100px;
+	margin-top: 5px;
 	width: 100%;
 }
 #About .button{

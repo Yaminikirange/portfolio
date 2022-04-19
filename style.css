@@ -93,7 +93,7 @@ nav ul li a:hover{
 #home .section-title h2{
 	color: white;
     font-family:myfont;
-    font-size: 60px;
+    font-size: 75px;
     font-weight: 700;
     margin-bottom: 25px;
     text-transform: uppercase;
@@ -101,7 +101,7 @@ nav ul li a:hover{
 }
 @font-face{
 		font-family:myfont;
-		src:url(BOD_I.ttf);
+		src:url(ARLRDBD.ttf);
 	}
 	@font-face{
 		font-family:myfont1;
